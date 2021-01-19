@@ -31,7 +31,7 @@ a{
 
 .header__list{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     padding: 0;
 }
 
@@ -56,7 +56,7 @@ a{
     text-align: center;
     padding-top: 120px;
     padding-bottom: 0;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .top__photo-box{
@@ -124,6 +124,7 @@ a{
     overflow: hidden;
     white-space: nowrap;
     animation: typingAnim 5s ease-in-out infinite;
+    padding-left: 10px;
 }
 
 .grab{
@@ -140,6 +141,7 @@ a{
 .footer{
     background-color: #000000;
     color: #ffffff;
+    padding: 10px;
 }
 
 @media (max-width: 900px){
